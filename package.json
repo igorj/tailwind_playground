@@ -1,0 +1,22 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "Project for playing around with Tailwind CSS",
+  "main": "index.js",
+  "author": "Igor Jancev",
+  "license": "MIT",
+  "scripts": {
+    "tailwind:process": "npx postcss src/css/styles.css --o src/includes/styles.css --watch",
+    "start": "concurrently \"yarn run tailwind:process\" \"yarn run serve\"",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "autoprefixer": "^10.2.4",
+    "concurrently": "^5.3.0",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}

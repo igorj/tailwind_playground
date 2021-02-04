@@ -13,3 +13,10 @@ yarn add tailwindcss postcss postcss-cli autoprefixer @11ty/eleventy concurrentl
 create postcss.config.js
 npx tailwindcss init
 install Tailwind CSS IntelliSense Visual Code Plugin + Restart VC
+
+# Resources
+
+https://daily-dev-tips.com/posts/adding-tailwind-to-eleventy/
+https://github.com/rebelchris/eleventy-todoist/blob/part3/.eleventy.js
+https://tailwindcss.com/docs
+https://tailwindui.com/components
